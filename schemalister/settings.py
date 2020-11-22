@@ -90,7 +90,7 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 SALESFORCE_CONSUMER_KEY = os.environ['SALESFORCE_CONSUMER_KEY']
 SALESFORCE_CONSUMER_SECRET = os.environ['SALESFORCE_CONSUMER_SECRET']
-SALESFORCE_REDIRECT_URI = 'https://schemalister.herokuapp.com/oauth_response'
+SALESFORCE_REDIRECT_URI = 'https://testschemalister.herokuapp.com/oauth_response'
 SALESFORCE_API_VERSION = int(os.environ['SALESFORCE_API_VERSION'])
 
 # A sample logging configuration. The only tangible logging
